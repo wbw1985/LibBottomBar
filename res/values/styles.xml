@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="TitleBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/lib_top_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">44.0dip</item>
+    </style>
+
+    <style name="TitleBarCentralText">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">114.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="TitleBarLeftButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/lib_button_bg</item>
+        <item name="android:layout_width">45.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="TitleBarRightButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/lib_button_bg</item>
+        <item name="android:layout_width">45.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="IosTabbarButton">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/lib_button_tab</item>
+        <item name="android:layout_width">70.0dip</item>
+        <item name="android:layout_height">45.0dip</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+        <item name="android:layout_marginRight">3.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="LabelText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff454346</item>
+    </style>
+
+</resources>

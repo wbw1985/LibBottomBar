@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.strawberry.lib.tab.views.TabLayoutLib
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C5CCD4FF"
+    android:orientation="vertical" >
+   <LinearLayout android:id="@+id/contentViewLayout" 
+		android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:background="#EEE" android:layout_marginBottom="5dip"/>
+    <com.strawberry.lib.tab.views.TabItemLib
+        android:id="@+id/Tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:layout_alignParentBottom="true"
+        />
+</com.strawberry.lib.tab.views.TabLayoutLib>
